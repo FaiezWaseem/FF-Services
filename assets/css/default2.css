@@ -467,8 +467,24 @@
     color: teal;
     cursor: pointer;
 }
+.h-border-white:hover{
+ border: 1px solid #EAEAEB;
+}
+.h-border-black:hover{
+    border: 1px solid black;
+   }
+.h-border-blue:hover{
+    border: 1px solid blue;
+   }
 
-/* Float */
+.h-border-teal:hover{
+    border: 1px solid teal;
+   }
+.h-border-grey:hover{
+    border: 1px solid grey;
+   }
+
+/* Float etc */
 .right{
    float: right;
 }
@@ -489,6 +505,15 @@
 }
 .l-height70{
         line-height: 70px;
+}
+.l-height50{
+    line-height: 50px;
+}
+.l-height100{
+    line-height: 100px;
+}
+.l-height30{
+    line-height: 30px;
 }
 
 
