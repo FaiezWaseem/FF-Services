@@ -1,0 +1,73 @@
+/*  RESPONSIVE  NAVBAR MEDIA QUERY */
+@media screen and (max-width:504px){
+    .menu .item{
+            font-size: 4rem;
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+    .fab{
+     font-size: 1.8rem;
+     margin: 30px;
+    }
+    .ham{
+        padding: 5px;
+    }
+}
+@media screen and (max-width:968px){
+   .ham{
+      display: block;
+       cursor: pointer;
+   }
+   .menu{
+       text-align: center;
+       width: 100%;
+       display: none;
+       height: 100vh;
+   }
+   .fab{
+       margin: 20px;
+   }
+   .menu .item{
+       display: block;
+       border-bottom: 1px solid #EAEAEB;
+       text-align: center;
+       width: 100%;
+       margin: 0;
+       font-size: 1.5rem;
+   }
+   #toggle:checked + .menu{
+       display: block;
+   }
+}
+/*  RESPONSIVE  NAVBAR MEDIA QUERY  END*/
+
+
+
+
+/* Slider Background image changing */
+.slider{
+    background-image: url(./img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation: animate;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-duration: 30s;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+   animation-timing-function: ease-in-out;
+}
+@keyframes animate {
+    0%{  background-image: url(./img/back.jpg);            }
+    25%{  background-image: url(./img/blog-item-01.png);   }
+    50%{   background-image: url(./img/blog-item-02.png);  }
+    75%{    background-image: url(./img/blog-item-03.png); }
+    100%{     background-image: url(./img/beach.jpg);      }
+
+}
+
+/* Slider Background image changing END */
