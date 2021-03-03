@@ -463,6 +463,10 @@
         color: pink;
         cursor: pointer;
 }
+.h-teal:hover{
+    color: teal;
+    cursor: pointer;
+}
 
 /* Float */
 .right{
@@ -470,6 +474,18 @@
 }
 .left{
         float: left;
+}
+.top{
+    float: top;
+}
+.bottom{
+    float: bottom;
+}
+.float-inline-end{
+    float: inline-end;
+}
+.float-inline-start{
+    float: inline-start;
 }
 .l-height70{
         line-height: 70px;

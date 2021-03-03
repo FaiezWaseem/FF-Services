@@ -35,7 +35,7 @@
 @media screen and (max-width:968px){
     .fab{
         font-size: 1.8rem;
-        margin: 30px;
+        margin: 20px;
        }
 
    .ham{
@@ -43,13 +43,9 @@
        cursor: pointer;
    }
    .menu{
-       text-align: center;
        width: 100%;
        display: none;
        height: 100vh;
-   }
-   .fab{
-       margin: 20px;
    }
    .menu .item{
        display: block;
